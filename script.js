@@ -48,7 +48,6 @@ function playSingleClue(btn){
 }
 
 function playClueSequence(){
-  clueHoldTime = clueHoldTime-40;
   guessCounter = 0;
   context.resume();
   let delay = nextClueWaitTime;
@@ -57,8 +56,10 @@ function playClueSequence(){
     setTimeout(playSingleClue, delay, pattern[i]);
     delay += clueHoldTime;
     delay += cluePauseTime;
-    if (clueHoldTime > 400){
-      clueHoldTime = clueHoldTime-40;
+    if (clueHoldTime > 500){
+      clueHoldTime = clueHoldTime-50;
+    } else {
+      clueHoldTime = clueHoldTime;
     }
 
   }
