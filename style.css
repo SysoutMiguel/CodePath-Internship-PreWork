@@ -74,8 +74,6 @@ button {
 
 #button1:active, #button1.lit {
   background: lightpink;
-  
-
 }
 
 #button2:active, #button2.lit  {

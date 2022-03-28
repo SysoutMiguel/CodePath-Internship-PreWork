@@ -48,7 +48,9 @@ function playSingleClue(btn){
 }
 
 function playClueSequence(){
-  clueHoldTime = clueHoldTime-40;
+  if (clueHoldTime > 200){
+    clueHoldTime = clueHoldTime - 100;
+  }
   guessCounter = 0;
   context.resume();
   let delay = nextClueWaitTime;
@@ -57,9 +59,7 @@ function playClueSequence(){
     setTimeout(playSingleClue, delay, pattern[i]);
     delay += clueHoldTime;
     delay += cluePauseTime;
-    if (clueHoldTime > 400){
-      clueHoldTime = clueHoldTime-40;
-    }
+
 
   }
 }
@@ -105,7 +105,7 @@ function guess(btn){
 
 function randomPattern() {
     return Array.apply(null, Array(8)).map(function() {
-        return Math.round(Math.random() * 8) + 1;
+        return Math.floor(Math.random() * (8)+1) ;
     });
   
 }
