@@ -64,14 +64,14 @@ While working on this project, I had encountered many issues. I have little to n
 After completing the submission, I was left with many questions in regards to the field of web development that will encourage me to look for answers online. A question I had was how a web browser's "inspect element" tool works with javascript, CSS, and HTML. Another question that arised while I was working on this project is how is one able to change the pane in which a group of buttons, textboxes, or pictures are in. This question came up when we created the initial four buttons. I know that the flow pane is used for html elements, and I wanted to know how I would be able to change it to a grid pane. Finally, a question that arised was if there are other languages or libraries that web developers use other than javascript, CSS, and HTML and if so, what are they.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific.
-[YOUR ANSWER HERE]
+If I had a few more hours to work on this project I would have completed all the optional features that was provided by CodePath that I didn't do. Like, the feature that adds an image to the button once it is pressed or called in the pattern, or the feature that adds different sounds from a source that I implement. Apart from the examples given, I would have made the background change color according to the button being called. Another change I would make is that I would add a ranking system which adjusts the pattern length each level. For example, if a user completes level one. The size of the pattern would increase, meaning that more guesses will be needeed to pass the level, and as the pattern increases, the speed in which the pattern is shown would also increase, making it harder as the player progresses.
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
 
+https://youtu.be/jIxzIDZiM94
 
 ## License
 
